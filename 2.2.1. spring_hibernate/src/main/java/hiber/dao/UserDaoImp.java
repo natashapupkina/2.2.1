@@ -33,7 +33,6 @@ public class UserDaoImp implements UserDao {
                 .setParameter("model", model)
                 .setParameter("series", series)
                 .uniqueResult();
-        System.out.println(user);
         return user;
     }
 }
